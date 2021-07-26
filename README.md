@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 Find out who I am
