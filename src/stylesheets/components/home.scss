@@ -1,44 +1,67 @@
-.home{
-    background-color:#fdf8ed;
-    height: 100vh;
+.home {
+  background-color: #fdf8ed;
+  background-image: url('../../images/fondo_home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-.home__title{
-    font-size: 1rem;
-    text-align: left;
-    word-spacing: 10px;
-    letter-spacing: 2px;
-    padding-left: 8vw;
-    padding-top: 10vh;
+.home__title {
+      color: white;
+  font-size: 1rem;
+  text-align: left;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  padding-left: 8vw;
+  padding-top: 10vh;
 }
-.home__text{
-    
-      width: 25em;
-      margin: 0 auto;
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
-      font-size: 100%;
-      word-spacing: 1px;
-    letter-spacing: 1px;
-      text-align: center;
-      white-space: nowrap;
-      overflow: hidden;
-      animation: typewriter 5s steps(50) 1s 1 normal both,
-      blinkTextCursor 500ms steps(50) infinite normal;
+.home__container {
+  display: flex;
+  height:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__container--img {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  
+}
+.home__container--image{
+      width: 300px;
+      height: 300px;
+      border-radius: 10%;
+}
+.home__text {
+  width: 25em;
+  margin: 50px auto;
+  color: white;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 100%;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 5s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(50) infinite normal;
 }
 @keyframes typewriter {
-    from {
-          width: 0;
-    }
-    to {
-          width: 25em;
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 25em;
+  }
 }
 
 @keyframes blinkTextCursor {
-    from {
-          border-right-color: rgba(0, 0, 0, 0.75);
-    }
-    to {
-          border-right-color: transparent;
-    }
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
