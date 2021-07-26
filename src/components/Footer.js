@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='footer' id='contact'>
         <div className="footer__copy">
             <p>© 2021 · Developed by Patricia Vaquero with ♡ · </p>
         </div>

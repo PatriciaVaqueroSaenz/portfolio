@@ -1,0 +1,19 @@
+.projects{
+    background-color: #FDF4BD;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.projects__title {
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 8vw;
+    padding-top: 10vh;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+  }
+  .projects__content{
+      padding-left: 8vw;
+      padding-right: 8vw;
+      padding-top: 10vh;
+  }
