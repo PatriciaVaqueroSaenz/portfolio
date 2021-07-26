@@ -1,13 +1,37 @@
 .footer{
     width:100%;
-    height:100px;
     background-color: black;
     color:white;
-    // position:fixed;
-    // bottom: 0;
-    // left: 0;
+    
+}
+.footer__container{
+    height:97vh;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
+    
+}
+.footer__title{
+    font-size: 1rem;
+    text-align: left;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    padding-left: 8vw;
+    padding-top: 10vh;
+}
+.footer__rrss{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 8vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+
+}
+.footer__copy{
+    font-size: 0.7rem;
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
