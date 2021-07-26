@@ -1,6 +1,8 @@
 .projects{
     background-color: #FDF4BD;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
+    min-width: 450px;
     display: flex;
     flex-direction: column;
 }

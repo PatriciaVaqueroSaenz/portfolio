@@ -1,9 +1,11 @@
 .nav-menu {
   background-color: #29292c;
+  opacity: 0.8;
   color: #fdf8ed;
   position: fixed;
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 100%;
+  min-width: 450px;
   -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
@@ -20,23 +22,7 @@
 .menu-container_list__item {
   display: block;
   position: relative;
-
-//   :first-child a {
-//     border-right: 10px solid black;
-//     padding-right: 5px;
-//   }
-//   :nth-child(2) a {
-//     border-right: 10px solid #fdf8ed;
-//     padding-right: 5px;
-//   }
-//   :nth-child(3) a {
-//     border-right: 10px solid #dfcd79;
-//     padding-right: 5px;
-//   }
-//   :last-child a {
-//     border-right: 10px solid #ce757b;
-//     padding-right: 5px;
-//   }
+  font-size: 1rem;
 }
 
 nav li a:after {
@@ -54,21 +40,37 @@ nav li a:after {
 
 nav li a:active {
   border-bottom: white 2px solid;
+  
 }
-
-nav li a:hover:after {
-  width: 100%;
+.item1 {
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  padding: 0 5px;
+  &:hover {
+    color: black;
+  }
 }
-
-// nav li:first-child a:after {
-//   background: black;
-// }
-// nav li:nth-child(2) a:after {
-//   background: #fdf8ed;
-// }
-// nav li:nth-child(3) a:after {
-//   background: #dfcd79;
-// }
-// nav li:last-child a:after {
-//   background: #ce757b;
-// }
+.item2 {
+  border-left: 10px solid #fde2e2;
+  border-right: 10px solid #fde2e2;
+  padding: 0 5px;
+  &:hover {
+    color: #fde2e2;
+  }
+}
+.item3 {
+  border-left: 10px solid #FDF4BD;
+  border-right: 10px solid #FDF4BD;
+  padding: 0 5px;
+  &:hover {
+    color: #FDF4BD;
+  }
+}
+.item4 {
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  padding: 0 5px;
+  &:hover {
+    color: black;
+  }
+}

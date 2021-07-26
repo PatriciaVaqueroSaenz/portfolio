@@ -1,14 +1,16 @@
 .home {
   background-color: #fdf8ed;
-  background-image: url('../../images/fondo_home.jpeg');
+  background-image: url("../../images/fondo_home.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
+  min-width: 450px;
 }
 
 .home__title {
-      color: white;
+  color: white;
   font-size: 1rem;
   text-align: left;
   word-spacing: 10px;
@@ -18,7 +20,7 @@
 }
 .home__container {
   display: flex;
-  height:100%;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -27,12 +29,11 @@
   background-color: transparent;
   width: 300px;
   height: 300px;
-  
 }
-.home__container--image{
-      width: 300px;
-      height: 300px;
-      border-radius: 10%;
+.home__container--image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
 }
 .home__text {
   width: 25em;

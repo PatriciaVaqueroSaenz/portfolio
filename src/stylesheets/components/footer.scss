@@ -1,11 +1,13 @@
 .footer{
     width:100%;
+    min-width: 450px;
     background-color: black;
     color:white;
     
 }
 .footer__container{
-    height:97vh;
+    height:auto;
+    min-height: 97vh;
     display:flex;
     flex-direction:column;
     

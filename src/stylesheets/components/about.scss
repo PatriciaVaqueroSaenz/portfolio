@@ -1,8 +1,11 @@
 .about {
   background-color: #fde2e2;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 450px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10vh;
 }
 .about__title {
   font-size: 1rem;
@@ -13,7 +16,16 @@
   letter-spacing: 2px;
 }
 .about__content{
-    padding-left: 8vw;
-    padding-right: 8vw;
-    padding-top: 10vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
+}
+
+.about__list{
+  padding-top: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
 }
