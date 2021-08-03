@@ -2,7 +2,7 @@
   background-image: url("../../images/home40.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   min-height: 100vh;
   min-width: 450px;
   height: auto;
@@ -29,10 +29,27 @@
 
 .about__list {
   color: #555a5a;
-  padding-top: 5vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+  padding: 8vh 10vw;
   list-style: none;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 40px;
+}
+.about__list--item{
+  background-color: #a5c6b1;
+  padding: 8px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius:10px;
+  width:105px;
+  height: 105px;
+}
+
+.about__list--item-icon{
+  width:50px;
+}
+.about__list--item-icongulp{
+  width:33px;
 }
