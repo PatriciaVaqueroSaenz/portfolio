@@ -108,12 +108,13 @@ const About = () => {
           Node js
         </li>
         <li className="about__list--item">
-        <img
+          <img
             className="about__list--item-icon"
             src={expressIcon}
             alt="Express Icon"
           />
-          Express</li>
+          Express
+        </li>
         <li className="about__list--item">
           <img
             className="about__list--item-icon"
