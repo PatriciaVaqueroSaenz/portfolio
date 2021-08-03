@@ -1,5 +1,4 @@
 .home {
-  background-color: #01314b;
   background-image: url("../../images/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,9 +7,8 @@
   min-height: 100vh;
   min-width: 450px;
 }
-
 .home__title {
-  color: #5e6464;
+  color: #555a5a;
   font-size: 1rem;
   text-align: left;
   word-spacing: 10px;
@@ -20,27 +18,16 @@
 }
 .home__container {
   display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10vh;
+  padding-right: 8vw;
 }
-// .home__container--img {
-//   background-color: transparent;
-//   width: 350px;
-//   height: 350px;
-// }
-// .home__container--image {
-//   width: 350px;
-//   height: 350px;
-//   border-radius: 10%;
-// }
 .home__text {
   width: 25em;
-  margin: 50px auto;
-  color: #5e6464;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 150%;
+  color: #555a5a;
+  border-right: 2px solid #555a5a;
+  font-size: 130%;
   word-spacing: 1px;
   letter-spacing: 1px;
   text-align: center;
@@ -60,7 +47,7 @@
 
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: #555a5a;
   }
   to {
     border-right-color: transparent;
