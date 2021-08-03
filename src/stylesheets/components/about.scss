@@ -1,5 +1,8 @@
 .about {
-  background-color: #fde2e2;
+  background-image: url("../../images/home40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
   min-height: 100vh;
   min-width: 450px;
   height: auto;
@@ -15,13 +18,14 @@
   word-spacing: 10px;
   letter-spacing: 2px;
 }
-.about__content{
-    padding-left: 15vw;
-    padding-right: 15vw;
-    padding-top: 5vh;
+.about__content {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 5vh;
+  display: inline-block;
 }
 
-.about__list{
+.about__list {
   padding-top: 5vh;
   width: 100%;
   display: flex;

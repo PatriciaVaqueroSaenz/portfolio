@@ -1,7 +1,7 @@
 .nav-menu {
-  background-color: #29292c;
-  opacity: 0.8;
-  color: #fdf8ed;
+  background-color: #a5c6b1;
+  opacity: 0.85;
+  color: #eff0ee;
   position: fixed;
   font-size: 1rem;
   width: 100%;
@@ -39,38 +39,14 @@ nav li a:after {
 }  
 
 nav li a:active {
-  border-bottom: white 2px solid;
+  border-bottom: #eff0ee 2px solid;
   
 }
-.item1 {
-  border-left: 10px solid black;
-  border-right: 10px solid black;
+.item {
+  border-left: 5px solid #5e6464;
+  border-right: 5px solid #5e6464;
   padding: 0 5px;
   &:hover {
-    color: black;
-  }
-}
-.item2 {
-  border-left: 10px solid #fde2e2;
-  border-right: 10px solid #fde2e2;
-  padding: 0 5px;
-  &:hover {
-    color: #fde2e2;
-  }
-}
-.item3 {
-  border-left: 10px solid #FDF4BD;
-  border-right: 10px solid #FDF4BD;
-  padding: 0 5px;
-  &:hover {
-    color: #FDF4BD;
-  }
-}
-.item4 {
-  border-left: 10px solid black;
-  border-right: 10px solid black;
-  padding: 0 5px;
-  &:hover {
-    color: black;
+    color: #5e6464;
   }
 }

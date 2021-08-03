@@ -1,6 +1,6 @@
 .home {
-  background-color: #fdf8ed;
-  background-image: url("../../images/fondo_home.jpeg");
+  background-color: #01314b;
+  background-image: url("../../images/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
 }
 
 .home__title {
-  color: white;
+  color: #5e6464;
   font-size: 1rem;
   text-align: left;
   word-spacing: 10px;
@@ -22,25 +22,25 @@
   display: flex;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-.home__container--img {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-}
-.home__container--image {
-  width: 300px;
-  height: 300px;
-  border-radius: 10%;
-}
+// .home__container--img {
+//   background-color: transparent;
+//   width: 350px;
+//   height: 350px;
+// }
+// .home__container--image {
+//   width: 350px;
+//   height: 350px;
+//   border-radius: 10%;
+// }
 .home__text {
   width: 25em;
   margin: 50px auto;
-  color: white;
+  color: #5e6464;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 100%;
+  font-size: 150%;
   word-spacing: 1px;
   letter-spacing: 1px;
   text-align: center;
