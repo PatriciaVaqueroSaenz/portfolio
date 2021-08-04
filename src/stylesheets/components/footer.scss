@@ -22,23 +22,38 @@
   padding-left: 8vw;
   padding-top: 10vh;
 }
-.footer__rrss {
+.footer__content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 8vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.footer__content--logo{
+  width:125px;
+}
+.footer__content--text{
+  padding-left: 8vw;
+  font-size: 3rem;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+.footer__rrss {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   padding-top: 8vh;
   padding-left: 20vw;
   padding-right: 20vw;
 }
-.footer__rrss--text{
-  font-size: 3rem;
-  word-spacing: 10px;
-  letter-spacing: 2px;
-  padding-top: 10vh;
-}
 .footer__rrss--list{
+  width: 100%;
   list-style: none;
+  display: flex;
+  justify-content:space-between;
 }
 .footer__copy {
   // background-color: #a5c6b1;
