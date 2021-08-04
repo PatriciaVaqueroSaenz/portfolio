@@ -3,12 +3,11 @@ import React from "react";
 function ProjectItem(props) {
   return (
     <article className="projects__list--item">
-      <h2 className="item__title">{props.title}</h2>
+      <h2 className="item__title">&#60;{props.title}&#62;</h2>
       <p className="item__description">{props.description}</p>
-      <ul className="item__tags">
+      <ul className="item__list-tags">
         {props.tags.map((tag, index) => (
-          <li key={index}>
-            <span></span>
+          <li className="item__tag" key={index}>
             {tag}
           </li>
         ))}
@@ -21,7 +20,7 @@ function ProjectItem(props) {
           target="_blank"
           className="link"
         >
-          WEB
+          <i class="fas fa-tv projectIcon"></i>
         </a>
         <a
           href={props.urlGithub}
@@ -30,7 +29,7 @@ function ProjectItem(props) {
           target="_blank"
           className="link"
         >
-          CODE
+          <i class="fas fa-code projectIcon"></i>
         </a>
       </div>
     </article>
