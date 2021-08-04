@@ -20,20 +20,44 @@ const Footer = () => {
         <div className="footer__rrss">
           <ul className="footer__rrss--list">
             <li>
-              <a href="https://www.linkedin.com/in/patriciavaquerosaenz">
+              <a
+                href="https://www.linkedin.com/in/patriciavaquerosaenz"
+                alt="Linkedin profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Linkedin
               </a>
             </li>
             <li>
-              <a href="https://github.com/PatriciaVaqueroSaenz">Github</a>
+              <a
+                href="https://github.com/PatriciaVaqueroSaenz"
+                alt="Github profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/patriciavaquerosaenz">
+              <a
+                href="mailto:vaquerosaenzpatricia@gmail.com?subject=Contacto%20portfolio"
+                alt="Email contact"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Email
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/pati_vaquero">Twitter</a>
+              <a
+                href="https://twitter.com/pati_vaquero"
+                alt="Twitter profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
             </li>
           </ul>
         </div>
