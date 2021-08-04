@@ -18,8 +18,14 @@
     letter-spacing: 2px;
   }
   .projects__list{
-      padding-left: 8vw;
-      padding-right: 8vw;
-      padding-top: 10vh;
+      padding: 10vh 8vw;
       list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+  }
+  .projects__list--itemContainer{
+      background-color: rgba(210, 175, 174, 0.85);
+      border-radius: 20px;
+      padding: 10vh;
   }
