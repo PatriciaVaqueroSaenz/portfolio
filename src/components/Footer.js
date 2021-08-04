@@ -25,8 +25,9 @@ const Footer = () => {
                 alt="Linkedin profile"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="rrss_link"
               >
-                Linkedin
+                <i class="fab fa-linkedin fa-lg icon"></i>
               </a>
             </li>
             <li>
@@ -35,8 +36,9 @@ const Footer = () => {
                 alt="Github profile"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="rrss_link"
               >
-                Github
+                <i class="fab fa-github fa-lg icon"></i>
               </a>
             </li>
             <li>
@@ -45,8 +47,9 @@ const Footer = () => {
                 alt="Email contact"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="rrss_link"
               >
-                Email
+                <i class="fas fa-envelope-square fa-lg icon"></i>
               </a>
             </li>
             <li>
@@ -55,8 +58,9 @@ const Footer = () => {
                 alt="Twitter profile"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="rrss_link"
               >
-                Twitter
+                <i class="fab fa-twitter-square fa-lg icon"></i>
               </a>
             </li>
           </ul>

@@ -27,7 +27,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 8vh;
+  padding-top: 14vh;
   padding-left: 2vw;
   padding-right: 2vw;
 }
@@ -41,19 +41,29 @@
   letter-spacing: 2px;
 }
 .footer__rrss {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  padding-top: 8vh;
+  padding-top: 14vh;
   padding-left: 20vw;
   padding-right: 20vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer__rrss--list{
   width: 100%;
   list-style: none;
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
+
+}
+.rrss_link{
+  text-decoration: none;
+  color: white;
+}
+.icon{
+  width: 40px;
+  font-size: 60px;
+
 }
 .footer__copy {
   // background-color: #a5c6b1;
