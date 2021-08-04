@@ -1,0 +1,34 @@
+[
+    {
+    "id": 1,
+    "title": "Happi Painters",
+    "description": "Refactorización de código heredado, creación de servidor web y BBDD.",
+    "tags": [
+        "React",
+        "JavaScript",
+        "Node",
+        "Gulp",
+        "Express",
+        "MySQL"
+    ],
+    "img": "",
+    "url": "https://happi-painters.herokuapp.com/",
+    "urlGithub": "https://github.com/PatriciaVaqueroSaenz/HappiPainters"
+    },
+    {
+        "id": 2,
+        "title": "Rick & Morty",
+        "description": "Development of a web application with React, API requests, filtering, and react-router links.",
+        "img": "",
+        "tags": [
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
+        ],
+        "url": "https://patriciavaquerosaenz.github.io/Rick-Morty/#/",
+        "urlGithub": "https://github.com/PatriciaVaqueroSaenz/Rick-Morty"
+    }
+    ]
