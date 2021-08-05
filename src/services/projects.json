@@ -11,7 +11,7 @@
         "Express",
         "MySQL"
     ],
-    "img": "./static/media/hp.png",
+    "img": "https://i.ibb.co/fqmqSDm/hp.png",
     "url": "https://happi-painters.herokuapp.com/",
     "urlGithub": "https://github.com/PatriciaVaqueroSaenz/HappiPainters"
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "title": "Rick & Morty",
         "description": "Development of a web application with React, API requests, filtering, and react-router links.",
-        "img": "./static/media/rm.png",
+        "img": "https://i.ibb.co/WWnkGq5/rm.png",
         "tags": [
             "React",
             "JavaScript",
@@ -28,7 +28,66 @@
             "Sass",
             "Responsive"
         ],
-        "url": "https://patriciavaquerosaenz.github.io/Rick-Morty/#/",
+        "url": "https://patriciavaquerosaenz.github.io/Rick-Morty/#/",    
         "urlGithub": "https://github.com/PatriciaVaqueroSaenz/Rick-Morty"
+    },
+    {
+        "id": 3,
+        "title": "Listen to my Card",
+        "description": "Development of a web application with mobile first. Generation through API of a business card to share.",
+        "img": "https://i.ibb.co/xm8PC0N/LTMC.png",
+        "tags": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
+        ],
+        "url": "https://patriciavaquerosaenz.github.io/ListenToMyCard/",    
+        "urlGithub": "https://github.com/PatriciaVaqueroSaenz/ListenToMyCard"
+    },
+    {
+        "id": 4,
+        "title": "Guess the Number",
+        "description": "Development of a web application with Javascript. Could you guess the number?",
+        "img": "https://i.ibb.co/QmscGbv/gtn.png",
+        "tags": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass"
+        ],
+        "url": "https://patriciavaquerosaenz.github.io/GuessTheNumber/",    
+        "urlGithub": "https://github.com/PatriciaVaqueroSaenz/GuessTheNumber"
+    },
+    {
+        "id": 5,
+        "title": "TV Shows Browser",
+        "description": "Development of a web application with Javascript. Could you guess the number?",
+        "img": "https://i.ibb.co/ThmCWGv/tv.png",
+        "tags": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp"
+        ],
+        "url": "https://patriciavaquerosaenz.github.io/TV_Shows_Browser/",    
+        "urlGithub": "https://github.com/PatriciaVaqueroSaenz/TV_Shows_Browser"
+    },
+    {
+        "id": 6,
+        "title": "Pokemon",
+        "description": "Development of a web application with React. Gotta catch 'em all",
+        "img": "https://i.ibb.co/wc6y9Nc/pokemon.png",
+        "tags": [
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass"
+        ],
+        "url": "https://patriciavaquerosaenz.github.io/Pokemon_React/",    
+        "urlGithub": "https://github.com/PatriciaVaqueroSaenz/Pokemon_React"
     }
     ]

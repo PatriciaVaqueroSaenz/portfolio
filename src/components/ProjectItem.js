@@ -1,5 +1,4 @@
 import React from "react";
-import hp from "../images/hp.png";
 
 function ProjectItem(props) {
   return (
