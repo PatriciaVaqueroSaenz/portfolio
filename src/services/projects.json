@@ -11,7 +11,7 @@
         "Express",
         "MySQL"
     ],
-    "img": "./static/media/hp.png",
+    "img": "../images/hp.png",
     "url": "https://happi-painters.herokuapp.com/",
     "urlGithub": "https://github.com/PatriciaVaqueroSaenz/HappiPainters"
     },
