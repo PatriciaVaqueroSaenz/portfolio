@@ -11,7 +11,7 @@
         "Express",
         "MySQL"
     ],
-    "img": "",
+    "img": "./static/media/hp.png",
     "url": "https://happi-painters.herokuapp.com/",
     "urlGithub": "https://github.com/PatriciaVaqueroSaenz/HappiPainters"
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "title": "Rick & Morty",
         "description": "Development of a web application with React, API requests, filtering, and react-router links.",
-        "img": "",
+        "img": "./static/media/rm.png",
         "tags": [
             "React",
             "JavaScript",

@@ -1,4 +1,5 @@
 import React from "react";
+import hp from "../images/hp.png";
 
 function ProjectItem(props) {
   return (
@@ -12,6 +13,9 @@ function ProjectItem(props) {
           </li>
         ))}
       </ul>
+      <div>
+        <img className="item-img" src={props.img} alt="foto proyecto" />
+      </div>
       <div className="item-links">
         <a
           href={props.url}

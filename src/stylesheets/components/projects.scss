@@ -1,88 +1,99 @@
-.projects{
-    background-image: url("../../images/plant40.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    min-height: 100vh;
-    min-width: 450px;
-    display: flex;
-    flex-direction: column;
+.projects {
+  background-image: url("../../images/plant40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  min-height: 100vh;
+  min-width: 450px;
+  display: flex;
+  flex-direction: column;
 }
 .projects__title {
-    color: #555a5a;
-    font-size: 1rem;
-    text-align: left;
-    padding-left: 8vw;
-    padding-top: 10vh;
-    word-spacing: 10px;
-    letter-spacing: 2px;
+  color: #555a5a;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 8vw;
+  padding-top: 10vh;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+.projects__list {
+  padding: 10vh 8vw;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
+}
+.projects__list--itemContainer {
+  // background-color: rgba(210, 175, 174, 0.85);
+  height: auto;
+  background-image: url("../../images/contact.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 20px;
+  padding: 8vh;
+  box-shadow: 3px 5px 10px rgb(165, 198, 177);
+}
+.projects__list--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item__title {
+  // color: #555a5a;
+  color: white;
+  font-size: 1rem;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+.item__description {
+  padding: 4vh 0 2vh;
+  color: white;
+  // color: #555a5a;
+}
+.item__list-tags {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+.item__tag {
+  color: #eff0ee;
+  margin: 3px;
+  background-color: rgb(165, 198, 177);
+  padding: 6px;
+  box-shadow: 1px 1px 3px #eff0ee;
+  border-radius: 10px;
+}
+.item-img {
+  width: 400px;
+}
+.item-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4vh;
+}
+.link {
+  text-decoration: none;
+}
+.projectIcon {
+  color: rgb(165, 198, 177);
+  background-color: #eff0ee;
+  box-shadow: 3px 3px 5px rgb(165, 198, 177);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  &:hover {
+    color: rgba(244, 200, 140, 0.8);
+    box-shadow: 3px 3px 5px rgb(244, 200, 140);
+    transform: scale(1.05);
   }
-  .projects__list{
-      padding: 10vh 8vw;
-      list-style: none;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-      gap: 40px;
-  }
-  .projects__list--itemContainer{
-      background-color: rgba(210, 175, 174, 0.85);
-      border-radius: 20px;
-      padding: 8vh;
-      box-shadow: 3px 5px 10px rgb(165, 198, 177);
-  }
-  .projects__list--item{
-      display: flex;
-      flex-direction: column;
-      justify-content:center;
-      align-items:center;
-  }
-  .item__title{
-    color: #555a5a;
-    font-size: 1rem;
-    word-spacing: 10px;
-    letter-spacing: 2px;
-  }
-  .item__description{
-    padding: 4vh 0 2vh;
-    color: #555a5a;
-  }
-  .item__list-tags{
-      width:100%;
-      list-style: none;
-      display: flex;
-      justify-content:center;
-      padding-bottom: 4vh;
-  }
-  .item__tag{
-    color: #eff0ee;
-    margin: 3px;
-    background-color:  rgb(165, 198, 177);
-    padding:6px;
-    box-shadow: 1px 1px 3px #eff0ee;
-    border-radius: 10px;
-  }
-  .item-links{
-    width:100%;
-    display: flex;
-    justify-content:space-around;
-  }
-  .link{
-    
-    text-decoration: none;
-  }
-  .projectIcon{
-    color: rgb(165, 198, 177);
-    background-color: #eff0ee;
-    box-shadow: 3px 3px 5px rgb(165, 198, 177);
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    &:hover {
-      color: rgba(244, 200, 140, 0.8);
-      box-shadow: 3px 3px 5px rgb(244, 200, 140);
-      transform: scale(1.05);
-    }
-  }
+}
