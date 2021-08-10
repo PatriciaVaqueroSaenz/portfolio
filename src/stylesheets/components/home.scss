@@ -18,14 +18,19 @@
 }
 .home__container {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: flex-end;
+  height: 80vh;
   padding-top: 10vh;
   padding-right: 8vw;
+  padding-left: 8vw;
+  padding-bottom: 10vh;
 }
-.home__text {
-  width: 25em;
-  color: #555a5a;
+.home__text-1 {
+  width: 26em;
+  // color: #555a5a;
+  color: black;
   border-right: 2px solid #555a5a;
   font-size: 140%;
   word-spacing: 1px;
@@ -41,11 +46,41 @@
     width: 0;
   }
   to {
-    width: 25em;
+    width: 26em;
   }
 }
-
 @keyframes blinkTextCursor {
+  from {
+    border-right-color: #555a5a;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.home__text-2 {
+  width: 23em;
+  // color: #555a5a;
+  color: black;
+  border-right: 2px solid #555a5a;
+  font-size: 140%;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter2 5s steps(50) 1s 1 normal both,
+    blinkTextCursor2 500ms steps(50) infinite normal;
+  animation-delay: 6s;
+}
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 23em;
+  }
+}
+@keyframes blinkTextCursor2 {
   from {
     border-right-color: #555a5a;
   }
