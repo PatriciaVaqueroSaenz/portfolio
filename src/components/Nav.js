@@ -13,7 +13,7 @@ const Nav = () => {
             smooth={true}
             duration={600}
           >
-            Home
+            &#60;Home&#62;
           </Link>
         </li>
         <li className="nav-menu__list--item item">
@@ -24,7 +24,7 @@ const Nav = () => {
             smooth={true}
             duration={600}
           >
-            About me
+            &#60;About me&#62;
           </Link>
         </li>
         <li className="nav-menu__list--item item">
@@ -35,7 +35,7 @@ const Nav = () => {
             smooth={true}
             duration={600}
           >
-            Projects
+            &#60;Projects&#62;
           </Link>
         </li>
         <li className="nav-menu__list--item item">
@@ -46,7 +46,7 @@ const Nav = () => {
             smooth={true}
             duration={600}
           >
-            Contact
+            &#60;Contact&#62;
           </Link>
         </li>
       </ul>
