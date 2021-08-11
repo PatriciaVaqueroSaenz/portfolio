@@ -2,7 +2,7 @@
   width: 100%;
   min-width: 450px;
   background-color: black;
-  color: white;
+  color: $lightest-color;
   background-image: url("../../images/contact2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,7 +58,7 @@
 }
 .rrss_link{
   text-decoration: none;
-  color: white;
+  color: $lightest-color;
 }
 .icon{
   width: 40px;

@@ -11,7 +11,7 @@
   padding-bottom: 10vh;
 }
 .about__title {
-  color: #555a5a;
+  color: $second-color;
   font-size: 1rem;
   text-align: left;
   padding-left: 8vw;
@@ -20,8 +20,7 @@
   letter-spacing: 2px;
 }
 .about__content {
-  // color: #555a5a;
-  color: black;
+  color: $darkest-color;
   padding-left: 15vw;
   padding-right: 15vw;
   padding-top: 5vh;
@@ -29,7 +28,6 @@
 }
 
 .about__list {
-  color: #555a5a;
   padding: 8vh 10vw;
   list-style: none;
   display: grid;
@@ -37,7 +35,7 @@
   gap: 40px;
 }
 .about__list--item{
-  background-color: #a5c6b1;
+  background-color: $main-color;
   padding: 8px;
   display:flex;
   flex-direction: column;

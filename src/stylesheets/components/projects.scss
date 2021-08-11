@@ -10,7 +10,7 @@
   flex-direction: column;
 }
 .projects__title {
-  color: #555a5a;
+  color: $second-color;
   font-size: 1rem;
   text-align: left;
   padding-left: 8vw;
@@ -26,16 +26,14 @@
   gap: 40px;
 }
 .projects__list--itemContainer {
-  // background-color: rgba(210, 175, 174, 0.85);
   height: auto;
   background-image: url("../../images/contact.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   border-radius: 20px;
   padding: 8vh;
-  box-shadow: 3px 5px 10px rgb(165, 198, 177);
+  box-shadow: 3px 5px 10px $main-color;
 }
 .projects__list--item {
   display: flex;
@@ -44,16 +42,14 @@
   align-items: center;
 }
 .item__title {
-  // color: #555a5a;
-  color: white;
+  color: $lightest-color;
   font-size: 1rem;
   word-spacing: 10px;
   letter-spacing: 2px;
 }
 .item__description {
   padding: 4vh 0 2vh;
-  color: white;
-  // color: #555a5a;
+  color: $lightest-color;
 }
 .item__list-tags {
   width: 100%;
@@ -63,11 +59,11 @@
   padding-bottom: 4vh;
 }
 .item__tag {
-  color: #eff0ee;
+  color: $lightest-color;
   margin: 3px;
-  background-color: rgb(165, 198, 177);
+  background-color: $main-color;
   padding: 6px;
-  box-shadow: 1px 1px 3px #eff0ee;
+  box-shadow: 1px 1px 3px $lightest-color;
   border-radius: 10px;
 }
 .item-img {
@@ -83,17 +79,17 @@
   text-decoration: none;
 }
 .projectIcon {
-  color: rgb(165, 198, 177);
-  background-color: #eff0ee;
-  box-shadow: 3px 3px 5px rgb(165, 198, 177);
+  color: $main-color;
+  background-color: $lightest-color;
+  box-shadow: 3px 3px 5px $main-color;
   border-radius: 50%;
   width: 45px;
   height: 45px;
   line-height: 45px;
   text-align: center;
   &:hover {
-    color: rgba(244, 200, 140, 0.8);
-    box-shadow: 3px 3px 5px rgb(244, 200, 140);
+    color: $third-color;
+    box-shadow: 3px 3px 5px $third-color;
     transform: scale(1.05);
   }
 }

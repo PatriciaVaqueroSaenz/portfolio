@@ -8,7 +8,7 @@
   min-width: 450px;
 }
 .home__title {
-  color: #555a5a;
+  color: $second-color;
   font-size: 1rem;
   text-align: left;
   word-spacing: 10px;
@@ -29,9 +29,8 @@
 }
 .home__text-1 {
   width: 26em;
-  // color: #555a5a;
-  color: black;
-  border-right: 2px solid #555a5a;
+  color: $darkest-color;
+  border-right: 2px solid $darkest-color;
   font-size: 140%;
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -51,7 +50,7 @@
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: #555a5a;
+    border-right-color: $darkest-color;
   }
   to {
     border-right-color: transparent;
@@ -59,9 +58,8 @@
 }
 .home__text-2 {
   width: 23em;
-  // color: #555a5a;
-  color: black;
-  border-right: 2px solid #555a5a;
+  color: $darkest-color;
+  border-right: 2px solid $darkest-color;
   font-size: 140%;
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -82,7 +80,7 @@
 }
 @keyframes blinkTextCursor2 {
   from {
-    border-right-color: #555a5a;
+    border-right-color: $darkest-color;
   }
   to {
     border-right-color: transparent;

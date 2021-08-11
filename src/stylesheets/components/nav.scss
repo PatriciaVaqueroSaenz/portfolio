@@ -1,6 +1,6 @@
 .nav-menu {
-  background-color: rgba(165, 198, 177, 0.8);
-  color: white;
+  background-color: $main-color-alpha08;
+  color: $lightest-color;
   position: fixed;
   font-size: 1rem;
   width: 100%;
@@ -18,16 +18,14 @@
 } 
 
 nav li a:active {
-  border-bottom: #eff0ee 2px solid;
+  border-bottom: $second-color 2px solid;
   
 }
 .item {
   word-spacing: 5px;
   letter-spacing: 2px;
-  // border-left: 5px solid #5e6464;
-  // border-right: 5px solid #5e6464;
   padding: 0 5px;
   &:hover {
-    color: #5e6464;
+    color: $second-color;
   }
 }
