@@ -22,7 +22,7 @@
   letter-spacing: 2px;
   padding-left: 8vw;
   padding-top: 10vh;
-  @include desktop {
+  @include tablet {
     font-size: 1.2rem;
   }
 }
