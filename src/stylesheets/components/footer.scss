@@ -15,6 +15,7 @@
   flex-direction: column;
 }
 .footer__title {
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 1rem;
   text-align: left;
   word-spacing: 10px;
@@ -38,6 +39,7 @@
   width:125px;
 }
 .footer__content--text{
+  text-shadow: black 0.1em 0.1em 0.2em;
   padding-left: 8vw;
   font-size: 3rem;
   word-spacing: 10px;
@@ -66,6 +68,7 @@
 .icon{
   width: 40px;
   font-size: 60px;
+  text-shadow: black 0.1em 0.1em 0.2em;
   &:hover {
     animation: bounce 0.5s;
   }
@@ -96,7 +99,7 @@
 
 }
 .footer__copy {
-  // background-color: #a5c6b1;
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 0.8rem;
   text-align: center;
   bottom: 0;

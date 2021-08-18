@@ -18,7 +18,7 @@
   padding-top: 10vh;
   word-spacing: 10px;
   letter-spacing: 2px;
-  @include desktop {
+  @include tablet {
     font-size: 1.2rem;
   }
 }
@@ -47,13 +47,18 @@
 }
 .item__title {
   color: $lightest-color;
-  font-size: 1rem;
-  word-spacing: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 1.1rem;
+  word-spacing: 3px;
   letter-spacing: 2px;
+  text-align: center;
 }
 .item__description {
   padding: 4vh 0 2vh;
+  letter-spacing: 1px;
   color: $lightest-color;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 .item__list-tags {
   width: 100%;
