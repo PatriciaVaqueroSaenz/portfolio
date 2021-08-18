@@ -3,12 +3,16 @@
   color: $lightest-color;
   position: fixed;
   font-size: 0.8rem;
-  //  1 rem
   min-width: 360px;
   width:100%;
-  // min-width: 450px;
-  // box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   z-index: 99;
+  @include tablet {
+    font-size: 1rem;
+  }
+  @include desktop {
+    font-size: 1.2rem;
+  }
 }
 .nav-menu__list {
   display: flex;
