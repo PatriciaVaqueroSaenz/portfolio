@@ -18,6 +18,9 @@
   padding-top: 10vh;
   word-spacing: 10px;
   letter-spacing: 2px;
+  @include desktop {
+    font-size: 1.2rem;
+  }
 }
 .projects__list {
   padding: 10vh 8vw;

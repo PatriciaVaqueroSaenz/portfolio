@@ -6,7 +6,7 @@
   height: auto;
   min-height: 100vh;
   min-width: 360px;
-  width:100%;
+  width: 100%;
 }
 .home__title {
   color: $second-color;
@@ -16,11 +16,14 @@
   letter-spacing: 2px;
   padding-left: 8vw;
   padding-top: 10vh;
+  @include tablet {
+    font-size: 1.2rem;
+  }
 }
 .home__container {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-end;
   height: 80vh;
   padding-top: 10vh;
@@ -29,11 +32,9 @@
   padding-bottom: 10vh;
 }
 .home__text-1 {
-  // width: 26em;
   width: 300px;
   color: $darkest-color;
   border-right: 2px solid $darkest-color;
-  // font-size: 140%;
   font-size: 65%;
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -42,14 +43,40 @@
   overflow: hidden;
   animation: typewriter 5s steps(50) 1s 1 normal both,
     blinkTextCursor 500ms steps(50) infinite normal;
+
+  @include tablet {
+    font-size: 110%;
+    animation: typewriter_tablet 5s steps(50) 1s 1 normal both,
+      blinkTextCursor 500ms steps(50) infinite normal;
+  }
+  @include desktop {
+    font-size: 130%;
+    animation: typewriter_desktop 5s steps(50) 1s 1 normal both,
+      blinkTextCursor 500ms steps(50) infinite normal;
+  }
 }
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
-    // width: 26em;
     width: 300px;
+  }
+}
+@keyframes typewriter_tablet {
+  from {
+    width: 0;
+  }
+  to {
+    width: 470px;
+  }
+}
+@keyframes typewriter_desktop {
+  from {
+    width: 0;
+  }
+  to {
+    width: 550px;
   }
 }
 @keyframes blinkTextCursor {
@@ -62,10 +89,8 @@
 }
 .home__text-2 {
   width: 265px;
-  // width: 23em;
   color: $darkest-color;
   border-right: 2px solid $darkest-color;
-  // font-size: 140%;
   font-size: 65%;
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -75,14 +100,41 @@
   animation: typewriter2 5s steps(50) 1s 1 normal both,
     blinkTextCursor2 500ms steps(50) infinite normal;
   animation-delay: 6s;
+  @include tablet {
+    font-size: 110%;
+    animation: typewriter2_tablet 5s steps(50) 1s 1 normal both,
+      blinkTextCursor 500ms steps(50) infinite normal;
+      animation-delay: 6s;
+  }
+  @include desktop {
+    font-size: 130%;
+    animation: typewriter2_desktop 5s steps(50) 1s 1 normal both,
+      blinkTextCursor 500ms steps(50) infinite normal;
+      animation-delay: 6s;
+  }
 }
 @keyframes typewriter2 {
   from {
     width: 0;
   }
   to {
-    // width: 23em;
     width: 265px;
+  }
+}
+@keyframes typewriter2_tablet {
+  from {
+    width: 0;
+  }
+  to {
+    width: 410px;
+  }
+}
+@keyframes typewriter2_desktop {
+  from {
+    width: 0;
+  }
+  to {
+    width: 480px;
   }
 }
 @keyframes blinkTextCursor2 {
