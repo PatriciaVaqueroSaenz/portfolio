@@ -5,7 +5,7 @@
   background-position: center;
   height: auto;
   min-height: 100vh;
-  min-width: 450px;
+  min-width: 360px;
 }
 .home__title {
   color: $second-color;
@@ -28,10 +28,12 @@
   padding-bottom: 10vh;
 }
 .home__text-1 {
-  width: 26em;
+  // width: 26em;
+  width: 300px;
   color: $darkest-color;
   border-right: 2px solid $darkest-color;
-  font-size: 140%;
+  // font-size: 140%;
+  font-size: 65%;
   word-spacing: 1px;
   letter-spacing: 1px;
   text-align: center;
@@ -45,7 +47,8 @@
     width: 0;
   }
   to {
-    width: 26em;
+    // width: 26em;
+    width: 300px;
   }
 }
 @keyframes blinkTextCursor {
@@ -57,10 +60,12 @@
   }
 }
 .home__text-2 {
-  width: 23em;
+  width: 265px;
+  // width: 23em;
   color: $darkest-color;
   border-right: 2px solid $darkest-color;
-  font-size: 140%;
+  // font-size: 140%;
+  font-size: 65%;
   word-spacing: 1px;
   letter-spacing: 1px;
   text-align: center;
@@ -75,7 +80,8 @@
     width: 0;
   }
   to {
-    width: 23em;
+    // width: 23em;
+    width: 265px;
   }
 }
 @keyframes blinkTextCursor2 {

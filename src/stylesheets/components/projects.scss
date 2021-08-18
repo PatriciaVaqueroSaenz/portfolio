@@ -5,7 +5,7 @@
   background-position: center;
   height: auto;
   min-height: 100vh;
-  min-width: 450px;
+  min-width: 360px;
   display: flex;
   flex-direction: column;
 }
@@ -22,7 +22,7 @@
   padding: 10vh 8vw;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
 }
 .projects__list--itemContainer {
@@ -55,6 +55,8 @@
   width: 100%;
   list-style: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 4vh;
 }

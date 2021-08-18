@@ -2,14 +2,16 @@
   background-color: $main-color-alpha08;
   color: $lightest-color;
   position: fixed;
-  font-size: 1rem;
-  width: 100%;
-  min-width: 450px;
-  box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  font-size: 0.8rem;
+  //  1 rem
+  width: 360px;
+  // min-width: 450px;
+  // box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   z-index: 99;
 }
 .nav-menu__list {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-around;
   list-style-type: none;
   margin-top: 2vh;
@@ -22,9 +24,7 @@ nav li a:active {
   
 }
 .item {
-  word-spacing: 5px;
   letter-spacing: 2px;
-  padding: 0 5px;
   &:hover {
     color: $second-color;
   }
