@@ -2,12 +2,20 @@ import React from "react";
 import { Link } from "react-scroll";
 import circle from "../images/circle.png";
 import logo from "../images/circlelogo.png";
+import photo from "../images/photo2.png";
 
 const Footer = () => {
   return (
     <footer className="footer" id="contact">
       <div className="footer__container">
         <h2 className="footer__title">&#60;contact&#62;</h2>
+        <div className="footer__img">
+        <img
+            className="footer__img--photo"
+            src={photo}
+            alt="Patricia Vaquero"
+          />
+        </div>
         <div className="footer__content">
           <img
             className="footer__content--logo"
@@ -16,7 +24,7 @@ const Footer = () => {
           />
           <p className="footer__content--text">Let's keep in touch!</p>
         </div>
-
+        
         <div className="footer__rrss">
           <ul className="footer__rrss--list">
             <li>
