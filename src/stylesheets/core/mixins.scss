@@ -8,3 +8,8 @@
       @content;
     }
   }
+  @mixin desktopB {
+    @media all and (min-width: 1440px) {
+      @content;
+    }
+  }
