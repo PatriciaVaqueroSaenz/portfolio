@@ -51,14 +51,17 @@
 .item__title {
   color: $lightest-color;
   text-shadow: black 0.1em 0.1em 0.2em;
-  font-size: 1.1rem;
+  font-size: 1rem;
   word-spacing: 3px;
   letter-spacing: 2px;
   text-align: center;
+  @include tablet {
+    font-size: 1.2rem;
+  }
 }
 .item__description {
-  padding: 4vh 0 2vh;
-  letter-spacing: 1px;
+  padding: 2vh 0 2vh;
+  letter-spacing: 1.2px;
   color: $lightest-color;
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.2em;
@@ -70,7 +73,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
 }
 .item__tag {
   color: $lightest-color;
@@ -87,7 +90,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-top: 4vh;
+  padding-top: 2vh;
 }
 .link {
   text-decoration: none;

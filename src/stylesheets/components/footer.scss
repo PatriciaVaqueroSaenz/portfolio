@@ -41,6 +41,12 @@
     width: 250px;
     transform: rotate(-5deg);
   }
+  @include desktop {
+    width:330px;
+    &:hover {
+      width: 330px;
+    }
+  }
 }
 .footer__content {
   display: flex;
@@ -59,6 +65,9 @@
   @include tablet {
     width: 100px;
   }
+  @include desktop {
+    width:140px;
+  }
 }
 .footer__content--text {
   text-shadow: black 0.1em 0.1em 0.2em;
@@ -68,22 +77,21 @@
   letter-spacing: 2px;
   @include tablet {
     padding-left: 8vw;
+    font-size: 1.8rem;
+  }
+  @include desktop {
     font-size: 2rem;
   }
 }
 .footer__rrss {
-  padding-top: 5vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding: 5vh 10vw 0;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   @include tablet {
     height: 150px;
-    padding-top: 5vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding: 5vh 20vw 0;
   }
 }
 .footer__rrss--list {
@@ -129,6 +137,9 @@
   }
   @include tablet {
     font-size: 45px;
+  }
+  @include desktop {
+    font-size: 60px;
   }
 }
 .footer__copy {
