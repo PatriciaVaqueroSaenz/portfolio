@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import circle from "../images/circle.png";
 import logo from "../images/circlelogo.png";
-import photo from "../images/photo2.png";
+import photoM from "../images/notebook.png";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer__img">
         <img
             className="footer__img--photo"
-            src={photo}
+            src={photoM}
             alt="Patricia Vaquero"
           />
         </div>

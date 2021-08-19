@@ -36,6 +36,11 @@
 }
 .footer__img--photo{
   width:250px;
+  &:hover {
+    content: url("../../images/notebook2.png");
+    width: 250px;
+    transform: rotate(-5deg);
+  }
 }
 .footer__content {
   display: flex;
@@ -105,25 +110,25 @@
     }
 
     20% {
-      -webkit-transform: translateX(20px);
-      transform: translateX(20px);
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
     }
     40% {
-      -webkit-transform: translateX(-20px);
-      transform: translateX(-20px);
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
     }
     60% {
-      -webkit-transform: translateX(20px);
-      transform: translateX(20px);
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
     }
 
     80% {
-      -webkit-transform: translateX(-20px);
-      transform: translateX(-20px);
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
     }
   }
   @include tablet {
-    font-size: 60px;
+    font-size: 45px;
   }
 }
 .footer__copy {

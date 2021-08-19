@@ -2,7 +2,7 @@
     {
     "id": 1,
     "title": "Happi Painters",
-    "description": "Refactorización de código heredado, creación de servidor web y BBDD.",
+    "description": "Development of a web application with React, refactoring of legacy code, creation of web server and DB.",
     "tags": [
         "React",
         "JavaScript",
