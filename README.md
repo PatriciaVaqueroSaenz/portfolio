@@ -33,6 +33,8 @@ To run this project, install it locally using $ npm install.
 
 ## About me :woman_technologist:
 
+<img width="200" alt="Patricia Vaquero" src="https://user-images.githubusercontent.com/81591304/130108486-c163e405-dd22-4b3a-b65d-d92d28bf2b42.png">
+
 I'm a front end developer based in Zaragoza, Spain.
 
 Let's get in touch!! -->  vaquerosaenzpatricia@gmail.com 
